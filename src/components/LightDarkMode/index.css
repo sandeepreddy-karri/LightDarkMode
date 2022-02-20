@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dark {
+  padding: 30px;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  padding: 30px;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whitetext {
+  color: #ffffff;
+}
+
+.darktext {
+  color: #000000;
+}
+
+.modebutton {
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
